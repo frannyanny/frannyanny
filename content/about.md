@@ -1,0 +1,8 @@
++++
+date = '2026-07-14T18:38:48+02:00'
+draft = false
+title = 'About'
++++
+
+
+This is the website of Fran.

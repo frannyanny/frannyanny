@@ -1,7 +1,25 @@
-baseURL = 'https://example.org/'
+baseURL = '/'
 locale = 'en-uk'
 title = 'Frannyannys portfolio site'
 theme = 'frannyanny'
+
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'Gallery'
+    pageRef = '/gallery'
+    weight = 20
+
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 30
+
 
 # Tailwind CSS
 [build]
@@ -18,6 +36,7 @@ theme = 'frannyanny'
   [[module.mounts]]
     source = 'assets'
     target = 'assets'
+
   [[module.mounts]]
     disableWatch = true
     source = 'hugo_stats.json'
