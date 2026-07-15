@@ -20,7 +20,6 @@
       "p",
       "script",
       "section",
-      "time",
       "title",
       "ul"
     ],
@@ -31,7 +30,6 @@
       "before:box-border",
       "box-border",
       "columns-1",
-      "content-center",
       "flex",
       "gap-4",
       "hidden",
@@ -43,6 +41,7 @@
       "lg:gap-x-12",
       "lg:px-8",
       "max-w-7xl",
+      "max-w-fit",
       "md:columns-3",
       "mx-auto",
       "object-center",
@@ -51,7 +50,8 @@
       "p-6",
       "rounded-lg",
       "sm:columns-2",
-      "text-6xl"
+      "text-6xl",
+      "text-center"
     ],
     "ids": null
   }

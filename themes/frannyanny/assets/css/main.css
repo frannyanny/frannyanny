@@ -32,6 +32,10 @@
 }
 
 
+@theme {
+  --color-primary: #4f838c;
+}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   margin-top: 1.5rem;
@@ -45,11 +49,9 @@ body {
   color: #4f838c;
   font-family: 'fraunces';
   line-height: 1.5;
-  margin: 1rem;
-  max-width: 768px;
 }
 
 a {
-  color: #00e;
+  color: #4f838c;
   text-decoration: none;
 }
